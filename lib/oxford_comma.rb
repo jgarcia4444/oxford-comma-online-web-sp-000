@@ -12,7 +12,7 @@ def oxford_comma(array)
         oxford_string << "#{string}, "
         next
       end
-      oxford_string << " and #{string}"
+      oxford_string << "and #{string}"
     end
     return oxford_string
   end
