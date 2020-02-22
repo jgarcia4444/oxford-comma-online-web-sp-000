@@ -11,7 +11,7 @@ def oxford_comma(array)
       if i != array.size - 1
         oxford_string << "#{string}, "
       end
-      oxford_string << string
+      oxford_string << " and #{string}"
     end
     return oxford_string
   end
