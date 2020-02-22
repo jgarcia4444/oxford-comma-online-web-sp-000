@@ -8,7 +8,9 @@ def oxford_comma(array)
 
     oxford_string = ""
     array.each_with_index do |string, i|
-      
+      if i != array.size - 1
+        oxford_string << "#{string}, "
+      end
     end
 
   end
