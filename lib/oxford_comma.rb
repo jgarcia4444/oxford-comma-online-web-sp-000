@@ -10,6 +10,7 @@ def oxford_comma(array)
     array.each_with_index do |string, i|
       if i != array.size - 1
         oxford_string << "#{string}, "
+        next
       end
       oxford_string << " and #{string}"
     end
