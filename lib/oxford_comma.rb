@@ -13,7 +13,7 @@ def oxford_comma(array)
       end
       oxford_string << string
     end
-
+    return oxford_string
   end
 
 end
